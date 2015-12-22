@@ -1,0 +1,19 @@
+{
+  "name": "dister",
+  "version": "1.0.0",
+  "bin": {
+    "dister": "./bin/dister"
+  },
+  "description": "Bundle files, by replacing the require calls in line.",
+  "main": "lib/index.js",
+  "dependencies": {
+    "js-beautify": "^1.5.10",
+    "read-utf8": "^1.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
