@@ -1,4 +1,4 @@
 #!/usr/bin/env node
 var CliMd = require("../lib");
 
-console.log(CliMd(process.cwd() + "/" + process.argv[2]));
+console.log(CliMd(process.cwd() + "/" + process.argv[2], process.argv[3]));
