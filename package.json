@@ -4,7 +4,7 @@
   "bin": {
     "rucksack": "./bin/rucksack"
   },
-  "description": "Bundle files, by replacing the require calls in-place.",
+  "description": "Bundle js files by replacing the require calls in-place.",
   "main": "lib/index.js",
   "dependencies": {
     "abs": "^1.2.1",
