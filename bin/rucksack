@@ -29,7 +29,7 @@ try {
     var result = rucksack(pathOpt.value, globalOpt.value);
     if (outputOpt.value) {
         outputOpt.value = abs(outputOpt.value);
-        fs.writeFileSync(outputOpt.value);
+        fs.writeFileSync(outputOpt.value, result);
         return log("Done.");
     }
     console.log(result);
