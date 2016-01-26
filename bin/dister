@@ -1,4 +1,38 @@
 #!/usr/bin/env node
-var CliMd = require("../lib");
+const log = require("emoji-logger")
+    , Clp = require("clp")
+    , Package = require("../package")
+    , rucksack = require("../lib")
+    , fs = require("fs")
+    , abs = require("abs")
+    ;
 
-console.log(CliMd(process.cwd() + "/" + process.argv[2], process.argv[3]));
+// Create the arguments parser
+var pathOpt = new Clp.Option(["p", "path"], "Sets the input js file path.", "path")
+  , globalOpt = new Clp.Option(["g", "global"], "Global variable name (it will be created when the commonjs environment will not be available)", "global-variable")
+  , outputOpt = new Clp.Option(["o", "output"], "Specify an output file where to write the bundle code.", "path")
+  , parser = new Clp({
+        name: "Rucksack"
+      , version: Package.version
+      , exe: Package.name
+      , examples: [
+            "rucksack -p input.js"
+          , "rucksack -p input.js -o bundle.js"
+          , "rucksack -p input.js -o bundle.js -g LibraryName"
+        ]
+      , docs_url: Package.homepage
+      , process: true
+    }, [pathOpt, globalOpt, outputOpt])
+  ;
+
+try {
+    var result = rucksack(pathOpt.value, globalOpt.value);
+    if (outputOpt.value) {
+        outputOpt.value = abs(outputOpt.value);
+        fs.writeFileSync(outputOpt.value);
+        return log("Done.");
+    }
+    console.log(result);
+} catch (e) {
+    log(e.message, "error");
+}
