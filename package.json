@@ -31,5 +31,19 @@
   "bugs": {
     "url": "https://github.com/IonicaBizau/rucksack/issues"
   },
-  "homepage": "https://github.com/IonicaBizau/rucksack#readme"
+  "homepage": "https://github.com/IonicaBizau/rucksack#readme",
+  "blah": {
+    "description": [
+      {
+        "p": [
+          [
+            "**Note:** The current version is not really production ready.",
+            "It does work for my use-cases, but it should be improved by",
+            "parsing the real tree. Check out the `falafel` branch.",
+            "Contributions in this direction are really welcome! :sparkling_heart:"
+          ]
+        ]
+      }
+    ]
+  }
 }
