@@ -1,3 +1,5 @@
+[![rucksack](http://i.imgur.com/hSPcrjC.png)](#)
+
 # `$ rucksack` [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/rucksack.svg)](https://www.npmjs.com/package/rucksack) [![Downloads](https://img.shields.io/npm/dt/rucksack.svg)](https://www.npmjs.com/package/rucksack) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
 > Bundle files, by replacing the require calls in-place.

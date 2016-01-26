@@ -44,6 +44,10 @@
           ]
         ]
       }
-    ]
+    ],
+    "h_img": "http://i.imgur.com/hSPcrjC.png"
+  },
+  "directories": {
+    "example": "example"
   }
 }
