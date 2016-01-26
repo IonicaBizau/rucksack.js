@@ -1,10 +1,10 @@
 {
-  "name": "dister",
+  "name": "rucksack",
   "version": "1.0.0",
   "bin": {
-    "dister": "./bin/dister"
+    "rucksack": "./bin/rucksack"
   },
-  "description": "Bundle files, by replacing the require calls in line.",
+  "description": "Bundle files, by replacing the require calls in-place.",
   "main": "lib/index.js",
   "dependencies": {
     "abs": "^1.2.1",
@@ -17,6 +17,19 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IonicaBizau/rucksack.git"
+  },
+  "keywords": [
+    "bundle",
+    "ruckscack",
+    "commonjs"
+  ],
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/rucksack/issues"
+  },
+  "homepage": "https://github.com/IonicaBizau/rucksack#readme"
 }
