@@ -11,7 +11,9 @@
     "clp": "^3.2.1",
     "emoji-logger": "^1.0.1",
     "js-beautify": "^1.5.10",
-    "read-utf8": "^1.2.0"
+    "read-utf8": "^1.2.0",
+    "require-resolve": "0.0.2",
+    "resolve": "^1.1.7"
   },
   "devDependencies": {},
   "scripts": {
