@@ -1,6 +1,6 @@
 {
   "name": "rucksack",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "bin": {
     "rucksack": "./bin/rucksack"
   },
@@ -49,5 +49,17 @@
   },
   "directories": {
     "example": "example"
-  }
+  },
+  "files": [
+    "bin/",
+    "app/",
+    "lib/",
+    "dist/",
+    "src/",
+    "resources/",
+    "menu/",
+    "scripts/",
+    "cli.js",
+    "index.js"
+  ]
 }
