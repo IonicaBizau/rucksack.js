@@ -6,6 +6,7 @@ You can see below the API reference of this module.
 Bundles the dependencies of the provided file.
 
 #### Params
+
 - **String** `path`: The path to the javascript file you want to bundle.
 - **String** `globalName`: If provided, when the bundle is not used in a commonjs environment the global variable will be created.
 
