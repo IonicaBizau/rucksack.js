@@ -1,6 +1,6 @@
 {
   "name": "rucksack.js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "bin": {
     "rucksack": "./bin/rucksack"
   },
@@ -17,7 +17,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "author": "Ionică Bizău <bizauionica@gmail.com> (https://ionicabizau.net)",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -54,13 +54,17 @@
     "bin/",
     "app/",
     "lib/",
-    "build/",
     "dist/",
     "src/",
+    "scripts/",
     "resources/",
     "menu/",
-    "scripts/",
     "cli.js",
-    "index.js"
+    "index.js",
+    "index.d.ts",
+    "package-lock.json",
+    "bloggify.js",
+    "bloggify.json",
+    "bloggify/"
   ]
 }
